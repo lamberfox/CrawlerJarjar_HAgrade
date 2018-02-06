@@ -17,10 +17,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Common" />
+        <module name="PreRunner" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="1.8" />
+      <module name="PreRunner" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

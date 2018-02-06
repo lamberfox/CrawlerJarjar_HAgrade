@@ -16,6 +16,9 @@ public class RedisFactory {
     //redis db1
     public static JedisPool redis1Pool =  RedisUtil.initRedisPool("/redis1pool.properties");
 
+    //redis db2
+    public static JedisPool redis2Pool =  RedisUtil.initRedisPool("/redis2pool.properties");
+
 
     //获取redis实例
     public synchronized static  Jedis getJedis(JedisPool jedisPool) {
